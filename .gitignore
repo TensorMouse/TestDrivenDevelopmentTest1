@@ -1,0 +1,45 @@
+# Ignore compiled binary files
+*.exe
+*.o
+*.out
+
+# Ignore dependencies
+/node_modules
+/bower_components
+/__pycache__
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+/build
+/dist
+
+# Ignore IDE and editor-specific files
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore sensitive or environment-specific information
+.env
+config.ini
+secrets.json
+
+# Ignore generated documentation
+/docs
+/venv
+/callGPT
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*~
+*.bak
+
+token.txt
+question.txt
+response.txt
+history.json
